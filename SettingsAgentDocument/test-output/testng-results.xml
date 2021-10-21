@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-21T15:15:12 IST" name="Suite" finished-at="2021-09-21T15:17:06 IST" duration-ms="113374">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.AddAgentDocumentField()[pri:1, instance:com.settingsagentdocument.endtoendtest.EndToEndTest@53976f5c]" name="AddAgentDocumentField" class="com.settingsagentdocument.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.settingsagentdocument.endtoendtest.EndToEndTest@53976f5c]" name="login" class="com.settingsagentdocument.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-21T15:15:12 IST" name="Test" finished-at="2021-09-21T15:17:06 IST" duration-ms="113374">
+      <class name="com.settingsagentdocument.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="BrowserFirst()[pri:0, instance:com.settingsagentdocument.endtoendtest.EndToEndTest@53976f5c]" started-at="2021-09-21T15:15:12 IST" name="BrowserFirst" finished-at="2021-09-21T15:15:36 IST" duration-ms="23749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserFirst -->
+        <test-method signature="login()[pri:0, instance:com.settingsagentdocument.endtoendtest.EndToEndTest@53976f5c]" started-at="2021-09-21T15:15:36 IST" name="login" finished-at="2021-09-21T15:15:37 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddAgentDocumentField()[pri:1, instance:com.settingsagentdocument.endtoendtest.EndToEndTest@53976f5c]" started-at="2021-09-21T15:15:37 IST" name="AddAgentDocumentField" finished-at="2021-09-21T15:17:06 IST" duration-ms="88650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAgentDocumentField -->
+      </class> <!-- com.settingsagentdocument.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
