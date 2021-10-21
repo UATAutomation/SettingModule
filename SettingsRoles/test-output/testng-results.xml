@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-21T12:46:10 IST" name="Suite" finished-at="2021-09-21T12:47:56 IST" duration-ms="105174">
+    <groups>
+      <group name="smoke">
+        <method signature="EndToEndTest.AddRolesField()[pri:1, instance:com.settingsroles.endtoendtest.EndToEndTest@53976f5c]" name="AddRolesField" class="com.settingsroles.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.login()[pri:0, instance:com.settingsroles.endtoendtest.EndToEndTest@53976f5c]" name="login" class="com.settingsroles.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-21T12:46:10 IST" name="Test" finished-at="2021-09-21T12:47:56 IST" duration-ms="105174">
+      <class name="com.settingsroles.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="BrowserFirst()[pri:0, instance:com.settingsroles.endtoendtest.EndToEndTest@53976f5c]" started-at="2021-09-21T12:46:10 IST" name="BrowserFirst" finished-at="2021-09-21T12:46:38 IST" duration-ms="27933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserFirst -->
+        <test-method signature="login()[pri:0, instance:com.settingsroles.endtoendtest.EndToEndTest@53976f5c]" started-at="2021-09-21T12:46:38 IST" name="login" finished-at="2021-09-21T12:46:39 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddRolesField()[pri:1, instance:com.settingsroles.endtoendtest.EndToEndTest@53976f5c]" started-at="2021-09-21T12:46:39 IST" name="AddRolesField" finished-at="2021-09-21T12:47:55 IST" duration-ms="76684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddRolesField -->
+      </class> <!-- com.settingsroles.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
