@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-20T17:08:31 IST" name="Suite" finished-at="2021-09-20T17:10:00 IST" duration-ms="88453">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.AssignAgent()[pri:1, instance:com.settingsassignagent.endtoendtest.EndToEndTest@4e7912d8]" name="AssignAgent" class="com.settingsassignagent.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.settingsassignagent.endtoendtest.EndToEndTest@4e7912d8]" name="login" class="com.settingsassignagent.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-20T17:08:31 IST" name="Test" finished-at="2021-09-20T17:10:00 IST" duration-ms="88453">
+      <class name="com.settingsassignagent.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="BrowserFirst()[pri:0, instance:com.settingsassignagent.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-09-20T17:08:31 IST" name="BrowserFirst" finished-at="2021-09-20T17:08:49 IST" duration-ms="17705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserFirst -->
+        <test-method signature="login()[pri:0, instance:com.settingsassignagent.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-09-20T17:08:49 IST" name="login" finished-at="2021-09-20T17:08:49 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AssignAgent()[pri:1, instance:com.settingsassignagent.endtoendtest.EndToEndTest@4e7912d8]" started-at="2021-09-20T17:08:49 IST" name="AssignAgent" finished-at="2021-09-20T17:10:00 IST" duration-ms="70166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignAgent -->
+      </class> <!-- com.settingsassignagent.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
