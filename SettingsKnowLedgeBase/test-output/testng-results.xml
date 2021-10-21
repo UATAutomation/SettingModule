@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-20T16:59:13 IST" name="Suite" finished-at="2021-09-20T17:01:36 IST" duration-ms="142649">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.KnowLedgeBase()[pri:2, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" name="KnowLedgeBase" class="com.settingsknowledgebase.base.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.ManageCategoryLoc()[pri:1, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" name="ManageCategoryLoc" class="com.settingsknowledgebase.base.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" name="login" class="com.settingsknowledgebase.base.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-20T16:59:13 IST" name="Test" finished-at="2021-09-20T17:01:36 IST" duration-ms="142649">
+      <class name="com.settingsknowledgebase.base.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="BrowserFirst()[pri:0, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-20T16:59:13 IST" name="BrowserFirst" finished-at="2021-09-20T16:59:33 IST" duration-ms="19675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserFirst -->
+        <test-method signature="login()[pri:0, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-20T16:59:33 IST" name="login" finished-at="2021-09-20T16:59:33 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ManageCategoryLoc()[pri:1, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-20T16:59:33 IST" name="ManageCategoryLoc" finished-at="2021-09-20T17:00:31 IST" duration-ms="57457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageCategoryLoc -->
+        <test-method signature="KnowLedgeBase()[pri:2, instance:com.settingsknowledgebase.base.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-20T17:00:31 IST" name="KnowLedgeBase" finished-at="2021-09-20T17:01:36 IST" duration-ms="65003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KnowLedgeBase -->
+      </class> <!-- com.settingsknowledgebase.base.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
